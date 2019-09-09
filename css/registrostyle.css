@@ -1,0 +1,14 @@
+body{
+    background-image: url('../imagenes/Fondo_Login_NumerosOnline_2K.jpg');
+    background-size: 100%;
+}
+
+form{
+    width: 100%;
+    align-content: center;
+}
+
+.contInput{
+    margin-top: 2%;
+    display: inline-block;
+}

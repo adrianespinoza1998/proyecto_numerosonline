@@ -12,7 +12,7 @@ $(document).ready(function () {
             alert('Uno o mas campos vacios');
         }else{
             if(email=='correo@prueba' && password=='12345'){
-                alert('Usuario correcto');
+
             }else{
                 alert('Correo o contraseña incorrectos');
             }
