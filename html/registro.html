@@ -11,25 +11,25 @@
 <header class="text-center">
     <h1 class="display-4">Registrese aquí</h1>
 </header>
-<main>
+<main class="container-fluid">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <form class="form-horizontal text-center" method="post">
+                <form class="form-horizontal text-center card" method="post">
                     <fieldset>
                         <div class="form-group align-items-center">
                             <div class="col-md-8 col-sm-12 contInput">
-                                <input id="fname" name="name" type="text" placeholder="Primer Nombre" class="form-control">
+                                <input id="pNombre" name="name" type="text" placeholder="Primer Nombre" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-md-8 col-sm-12 contInput">
-                                <input id="lname" name="name" type="text" placeholder="Apellido Paterno" class="form-control">
+                                <input id="apPaterno" name="name" type="text" placeholder="Apellido Paterno" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-md-8 col-sm-12 contInput">
-                                <input id="lname2" name="name" type="text" placeholder="Apellido Materno" class="form-control">
+                                <input id="apMaterno" name="name" type="text" placeholder="Apellido Materno" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
@@ -46,7 +46,7 @@
 
                         <div class="form-group">
                             <div class="col-md-12 text-center contInput">
-                                <button type="submit" class="btn btn-primary btn-lg">Registrarse</button>
+                                <button type="submit" id="registrarse" class="btn btn-primary btn-lg">Registrarse</button>
                             </div>
                         </div>
                     </fieldset>
@@ -57,5 +57,6 @@
 </main>
 <script src="../js/jquery-3.4.1.js"></script>
 <script src="../js/bootstrap.js"></script>
+<script src="../js/registro.js"></script>
 </body>
 </html>

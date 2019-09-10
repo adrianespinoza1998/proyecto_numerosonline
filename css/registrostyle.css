@@ -6,9 +6,18 @@ body{
 form{
     width: 100%;
     align-content: center;
+    opacity: 1;
 }
 
 .contInput{
     margin-top: 2%;
     display: inline-block;
+}
+
+.row{
+    margin-top: 10%;
+}
+
+.card{
+
 }

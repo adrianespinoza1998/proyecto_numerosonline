@@ -15,9 +15,17 @@ html{
 }
 
 .row{
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 #btnIngresar{
     margin-top: 3%;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: white;
 }
