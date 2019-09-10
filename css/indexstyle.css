@@ -1,45 +1,23 @@
 body{
-    background-image: url('../imagenes/Fondo_Login_NumerosOnline_2K.jpg');
+    background-image: url("../imagenes/Fondo_Login_NumerosOnline_2K.jpg");
     background-size: 100%;
+    width: 100%;
 }
 
-#contPadre{
-    justify-content: center;
-    align-items: center;
+html{
+    width: 100%;
 }
 
-form{
+#carousel-example-1z{
     display: inline-block;
-    margin-top: 7%;
-    width: 60%;
-    min-width: max-content;
-    max-width: 100%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.row{
+    margin-top: 15%;
 }
 
 #btnIngresar{
-    margin-top: 20px;
-    width: max-content;
-    margin-bottom: 20px;
-}
-
-#tituloCard{
-    font-size: 35px;
-}
-
-#textPassword{
-    margin-top: 10px;
-}
-
-.card{
-    -webkit-box-shadow: 0px 0px 28px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 28px -1px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 28px -1px rgba(0,0,0,0.75);
-}
-
-#cardBody{
-    text-align: left;
-}
-
-img{
-    margin-top: 10%;
+    margin-top: 3%;
 }
