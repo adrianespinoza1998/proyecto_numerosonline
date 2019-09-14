@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98c7bbc9-c475-46d0-867d-8d66b6bb8d7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/homestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/homestyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/indexstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/indexstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registro.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/registro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/loginstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/loginstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +79,8 @@
       <workItem from="1567985808662" duration="1686000" />
       <workItem from="1568039297999" duration="2587000" />
       <workItem from="1568070732020" duration="5942000" />
+      <workItem from="1568393746475" duration="2976000" />
+      <workItem from="1568424993309" duration="267000" />
     </task>
     <servers />
   </component>

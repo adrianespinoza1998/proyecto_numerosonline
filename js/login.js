@@ -12,8 +12,8 @@ $(document).ready(function () {
             alert('Uno o mas campos vacios');
         }else{
             if(email=='correo@prueba' && password=='12345'){
-                $('body').fadeOut(500);
-                location.href="html/home.html";
+                //$('body').fadeOut(500);
+                window.location="html/home.html";
             }else{
                 alert('Correo o contraseña incorrectos');
             }
