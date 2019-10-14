@@ -8,6 +8,8 @@ $(document).ready(function () {
 
         if(pNombre=='' || apPaterno=='' || apMaterno=='' || email=='' || rut==''){
             alert('Faltan uno o mas campos');
+        }else{
+            alert('Usuario registrado');
         }
     });
 });

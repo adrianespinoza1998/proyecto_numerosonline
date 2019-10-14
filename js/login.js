@@ -9,11 +9,12 @@ $(document).ready(function () {
         var password=$('#password').val();
 
         if(email=='' || password==''){
-            alert('Uno o mas campos vacios');
+            alert('Uno o más campos vacios');
         }else{
             if(email=='correo@prueba' && password=='12345'){
                 //$('body').fadeOut(500);
-                window.location="html/home.html";
+                window.location = "home.html"; // Redirige a otra pagina.
+                return false;
             }else{
                 alert('Correo o contraseña incorrectos');
             }

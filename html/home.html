@@ -4,29 +4,60 @@
 	<meta charset="UTF-8">
     <title>Numeros Online</title>
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="../css/homestyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/numerosonline.min.css">
 </head>
 <body>
-    <div class="row">
-        <div class="col-sm-11 col-md-9">
-            <p>Estimado Pedro</p>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="../img/imagen%20login2Recurso%201@0.5x.png"></a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#quienessomos">Quiénes Somos</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                </li>
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Nuestros clientes</a>
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contacto</a>
+                <li class="nav-item mx-0 mx-lg-1">
+                </li>
+            </ul>
         </div>
-        <div class="col-sm-1 col-md-3" id="tomarTurno">
+    </div>
+</nav>
+    <div class="row text-center" id="wrpcontent">
+        <div class="col-sm-9 col-md-8 ml-5">
+            <div class="row">
+                <div class="col-md-8 col-sm-8">
+                    <p>Estimado Pedro</p>
+                    <p>
+                        En la notaria de El Golf 430, quedan 5 turnos por atender, por favor ingrese que se demorara en llegar.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 text-center" id="tomarTurno">
             <form>
                 <div style="display: inline-block">
                     <select class="form-control" id="selectTurno">
-                        <option>15</option>
-                        <option>20</option>
-                        <option>25</option>
-                        <option>30</option>
-                        <option>35</option>
-                        <option>40</option>
-                        <option>45</option>
-                        <option>50</option>
-                        <option>55</option>
-                        <option>60</option>
+                        <option>15 min</option>
+                        <option>20 min</option>
+                        <option>25 min</option>
+                        <option>30 min</option>
+                        <option>35 min</option>
+                        <option>40 min</option>
+                        <option>45 min</option>
+                        <option>50 min</option>
+                        <option>55 min</option>
+                        <option>60 min</option>
                     </select>
-                    <button class="btn btn-secondary">Tomar turno</button>
+                    <button id="btnTurno" class="btn btn-secondary mt-2">Tomar turno</button>
                 </div>
             </form>
         </div>
@@ -34,4 +65,5 @@
     </div>
     <script src="../js/jquery-3.4.1.js"></script>
     <script src="../js/bootstrap.js"></script>
+    <script src="../js/home.js"></script>
 </body>
