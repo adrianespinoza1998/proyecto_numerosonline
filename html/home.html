@@ -1,69 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-    <title>Numeros Online</title>
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="../css/numerosonline.min.css">
-</head>
-<body>
+<html>
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+<head>
+  <meta charset="UTF-8">
+  <title>Numeros Online</title>
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../css/numerosonline.min.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="py-5">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="../img/imagen%20login2Recurso%201@0.5x.png"></a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#quienessomos">Quiénes Somos</a>
-                </li>
-                <li class="nav-item mx-0 mx-lg-1">
-                </li>
-                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Nuestros clientes</a>
-                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contacto</a>
-                <li class="nav-item mx-0 mx-lg-1">
-                </li>
-            </ul>
-        </div>
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
     </div>
-</nav>
-    <div class="row text-center" id="wrpcontent">
-        <div class="col-sm-9 col-md-8 ml-5">
-            <div class="row">
-                <div class="col-md-8 col-sm-8">
-                    <p>Estimado Pedro</p>
-                    <p>
-                        En la notaria de El Golf 430, quedan 5 turnos por atender, por favor ingrese que se demorara en llegar.
-                    </p>
+  </div>
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="../img/imagen%20login2Recurso%201@0.5x.png"></a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style=""> Menu <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+  <div class="py-5 text-white bg-dark" style="background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(&quot;https://static.pingendo.com/cover-bubble-dark.svg&quot;); background-position: center center, center center; background-size: cover, cover; background-repeat: repeat, repeat;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center align-self-center p-4">
+          <p class="mb-5"><a href="http://www.notariamendoza.cl/"><b>NOTARIA&nbsp; ANTONIETA MENDOZA ESCALAS</b><br></a>San Sebastián 2750, Las Condes, Región Metropolitana<br><u>FONO:&nbsp;</u>(2) 2915 0100</p>
+          <div class="row">
+            <div class="col-md-12 d-flex align-items-center justify-content-around"> <a href="#">
+                <i class="d-block fa fa-facebook-official text-light fa-lg mx-2"></i>
+              </a> <a href="#">
+                <i class="d-block fa fa-instagram text-light fa-lg mx-2"></i>
+              </a> <a href="#">
+                <i class="d-block fa fa-google-plus-official text-light fa-lg mx-2"></i>
+              </a> <a href="#">
+                <i class="d-block fa fa-pinterest-p text-light fa-lg mx-2"></i>
+              </a> <a href="#">
+                <i class="d-block fa fa-reddit text-light fa-lg mx-2"></i>
+              </a> <a href="#">
+                <i class="d-block fa fa-twitter text-light fa-lg ml-2"></i>
+              </a> </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-0"> <iframe width="100%" height="350" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=es&amp;q=San%20Sebasti%C3%A1n%202750%2C%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana+(%20Notaria%20Antonieta%20Mendoza%20Escalas)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" scrolling="no" frameborder="0"></iframe></div>
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h5 class="my-2" contenteditable="true">Seleccione un número para que se le asigne un espacio en la fila&nbsp;<span class="badge badge-pill badge-warning">!</span></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" style="">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card text-center">
+                <div class="card-header">FINIQUITOS</div>
+                <div class="card-body">
+                  <a class="btn btn-primary" id="btnFiniquitos" href="#" data-toggle="modal">Reservar Número</a>
                 </div>
+                <div class="card-footer text-muted"></div>
+              </div>
             </div>
-        </div>
-        <div class="col-sm-3 col-md-3 text-center" id="tomarTurno">
-            <form>
-                <div style="display: inline-block">
-                    <select class="form-control" id="selectTurno">
-                        <option>15 min</option>
-                        <option>20 min</option>
-                        <option>25 min</option>
-                        <option>30 min</option>
-                        <option>35 min</option>
-                        <option>40 min</option>
-                        <option>45 min</option>
-                        <option>50 min</option>
-                        <option>55 min</option>
-                        <option>60 min</option>
-                    </select>
-                    <button id="btnTurno" class="btn btn-secondary mt-2">Tomar turno</button>
+            <div class="col-md-6">
+              <div class="card text-center">
+                <div class="card-header"> COPIAS LEGALIZADAS</div>
+                <div class="card-body">
+                  <a class="btn btn-primary" id="btnCopias" href="#" data-toggle="modal">Reservar Número</a>
                 </div>
-            </form>
+                <div class="card-footer text-muted"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <h6 class=""></h6>
+              <div class="card text-center">
+                <div class="card-header"> ESCRITURAS PÚBLICAS</div>
+                <div class="card-body">
+                  <a href="#" class="btn btn-primary" id="btnEscrituras">Reservar Número</a>
+                </div>
+                <div class="card-footer text-muted"></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h6 class=""></h6>
+              <div class="card text-center">
+                <div class="card-header"> PÚBLICO GENERAL</div>
+                <div class="card-body">
+                  <a href="#" class="btn btn-primary" id="btnPublico">Reservar Número</a>
+                </div>
+                <div class="card-footer text-muted"></div>
+              </div>
+            </div>
+          </div>
         </div>
-        <p></p>
+      </div>
     </div>
-    <script src="../js/jquery-3.4.1.js"></script>
-    <script src="../js/bootstrap.js"></script>
-    <script src="../js/home.js"></script>
+  </div>
+  <div class="row text-center" id="wrpcontent">
+    <div class="col-sm-3 col-md-12 text-center" id="tomarTurno">
+    </div>
+  </div>
+  <script src="../js/jquery-3.4.1.js"></script>
+  <script src="../js/bootstrap.js"></script>
+  <script src="../js/home.js"></script>
+ 
 </body>
+
+</html>
